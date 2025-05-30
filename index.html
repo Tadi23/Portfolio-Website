@@ -7,40 +7,65 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+         <!--<img src="https://avatars.githubusercontent.com/u/122626646?v=4" alt="Tadiwanashe Tuwe" class="profile-image">-->
+         <h1 class="name">Tadiwanashe Tuwe</h1>
+         <p class="tagline">Software Developer | Problem Solver | Innovator</p>
+         <a href="#projects" class="cta-button">View My Projects</a>
         <h1>Hello, I'm Tadiwanashe Tuwe</h1>
          <p>Welcome to my portfolio! I am a passionate software developer with a keen interest in creating innovative solutions. Here, you can explore my projects and learn more about my skills and experiences.</p>
     </header>
 
-    <section class="about"> 
+    <section class="about" id="about"> 
         <h1>About Me</h1>
         <p>I am a software developer with a strong foundation in programming and a passion for problem-solving. I enjoy working on projects that challenge my skills and allow me to learn new technologies. My goal is to create impactful software that improves people's lives.</p>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>
+        <div class="project-list">
+            <div class="project-card"> 
                 <h3>Project 1: Personal Portfolio Website</h3>
                 <p>A responsive portfolio website showcasing my skills and projects.</p>
-            </li>
-            <li>
+                <a href="#">view project</a>
+            </div>
+
+            <div class="project-card">
                 <h3>Project 2: Food Ordering System</h3>
                 <p>An application to help users order food from a restaurant.</p>
-            </li>
-            <li>
+                <a href="#">view project</a>
+            </div>
+            <div class="project-card">
                 <h3>Project 3: E-commerce Platform</h3>
                 <p>A full-stack e-commerce platform with user authentication and product management.</p>
-            </li>
-            <li>
-                <h3>Project 4:  Bus application for university Students</h3>
+                <a href="#">view project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 4: Bus application for university Students</h3>
                 <p>An application that helps students(mainly at the university of Johannesburg) view bus schedules, view delays, rate drivers, etc.</p>
-        </ul>
+                <a href="#">view project</a>
+            </div>
+        </div>
+
 
     </section>
-    <footer>
-        <p>contact me on : 082468365</p>
-        <p>Email: tadiwanashe.tuwe@gmail.com</p>
+    <footer id="contact">
+        <p>&copy 2025 Tadiwanashe</p>
+        <div class="social-links">
+            <a href="https://@instagram.com/_zen_kai" 
+            target="_blank">Instagram</a>
+            <a href=" https://www.linkedin.com/in/tadiwanashe-tuwe-270081227" 
+            target="_blank">Linkedin</a>
+
+        </div>
     
     </footer>
 
